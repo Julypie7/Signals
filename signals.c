@@ -6,7 +6,7 @@
 /*   By: ineimatu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 12:33:38 by ineimatu          #+#    #+#             */
-/*   Updated: 2024/10/11 16:42:54 by ineimatu         ###   ########.fr       */
+/*   Updated: 2024/10/11 17:10:10 by ineimatu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #include "signal.h"
 
 //signal is the function to intiate signals
-//SIGINT cntrl-c(and d i think)
+//SIGINT cntrl-c
 //SIGQUIT cntrl-\
 
 void	handle_norm_sig(int sig) //for cntrl-c
